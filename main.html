@@ -4,9 +4,29 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		#container{
+			margin:20px;
+		}
+
+		#start::before{
+			content:"Before Element";
+			color:#f00;
+			font-size:20px;
+		}
+
+		#start::after{
+			content:"After Element";
+			color:#f00;
+			font-size:20px;
+		}
+	</style>
 </head>
 
 <body>
+<div id="comtainer">
+	<p id="start"> This is the main container element </p>
+</div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
